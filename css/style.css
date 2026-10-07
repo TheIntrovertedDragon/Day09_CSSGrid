@@ -20,6 +20,13 @@ ul.nav a:hover {
     color: lightblue;
 }
 
+
+
+body{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
 .grid-container {
   display: grid;
   grid-gap: 10px;
@@ -40,7 +47,7 @@ ul.nav a:hover {
 .main-img {
   grid-row: 2;
   grid-column:1 /span 3;
-
+  background-color: rgb(205, 222, 237);
 }
 
 .image1 {
@@ -63,20 +70,37 @@ ul.nav a:hover {
   grid-column: 3;
   grid-row: 3 / span 3;
   padding: 30px;
+  background-color: rgb(156, 192, 222);
 }
 
 .support1{
   grid-column: 1;
   grid-row: 4;
   padding: 30px;
+  background-color: rgb(173, 202, 226);
 }
 
 .support2{
   grid-column: 2;
   grid-row: 4;
   padding: 30px;
+  background-color: rgb(173, 202, 226);
 }
 
-.small_img {
-  max-width: 100px;
+
+.footer {
+  position:fixed;
+  left:0;
+  bottom:0;
+  width:100%;
+  background-color:rgb(126, 162, 193);
+  color:black;
+  text-align:center
+}
+
+hr{
+  height: 2px;
+  width: 150px;
+  border: none;
+  background-color: rgb(39, 65, 88);
 }
